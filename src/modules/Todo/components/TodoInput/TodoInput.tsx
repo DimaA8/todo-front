@@ -8,7 +8,9 @@ export const TodoInput = () => {
   const addTodo = useTodo((state) => state.addTodo)
 
   const onChange: ChangeEventHandler<HTMLInputElement> = (event) => {
-    setTodoText(event.target.value)
+    if (event.target.value.length < 100) {
+      setTodoText(event.target.value)
+    }
   }
 
   const onAdd = () => {

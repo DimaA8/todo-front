@@ -10,7 +10,7 @@ export const TodoList = () => {
   return (
     <>
       <TodoFilters />
-      <div>
+      <div data-testid="todo-list">
         {todos
           .filter((todo) => applyFilters(todo, filter))
           .map((todo) => (
