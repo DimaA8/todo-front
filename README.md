@@ -8,7 +8,7 @@
 
 На проекте используется react (hooks), typescript, mui, zustand, testing-library, настроены lint, prettier.
 Модули организуются в виде отдельных папок со следующей структурой:
-- __test__
+- __tests__
 - components
 - constants
 - helpers
