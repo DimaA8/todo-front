@@ -20,7 +20,7 @@ export const TodoFilters = () => {
       <FormControl>
         <RadioGroup defaultValue={defaultFilterValue} onChange={onChange} row>
           {filters.map((filter) => (
-            <FormControlLabel control={<Radio />} label={filter.text} value={filter.value} />
+            <FormControlLabel control={<Radio />} key={filter.value} label={filter.text} value={filter.value} />
           ))}
         </RadioGroup>
       </FormControl>
