@@ -22,8 +22,10 @@ export const TodoItem: FC<Props> = ({ todo }) => {
 
   return (
     <Box alignItems="center" display="flex">
-      <Checkbox checked={todo.done} onChange={onChange} />
-      <Typography sx={{ textDecoration: todo.done ? 'line-through' : 'none' }}>{todo.text}</Typography>
+      <Checkbox checked={todo.done} onChange={onChange} role="todo-item" />
+      <Typography onClick={onChange} sx={{ textDecoration: todo.done ? 'line-through' : 'none' }}>
+        {todo.text}
+      </Typography>
     </Box>
   )
 }
