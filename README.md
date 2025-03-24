@@ -1,6 +1,5 @@
 # Приложение ToDo
-![image](https://github.com/user-attachments/assets/47cab126-9904-4c27-9063-3a4bfc582e0b)
-
+![image](https://github.com/user-attachments/assets/b654fb99-2a12-4854-85e3-f3cf3292c107)
 
 Доступно по ссылке: https://dimaa8.github.io/todo-front/
 
